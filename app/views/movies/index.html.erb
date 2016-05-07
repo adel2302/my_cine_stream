@@ -1,4 +1,4 @@
 <h1>Movies#index</h1>
 <% @movies.each do |movie| %>
-  <%= link_to movie.title, movie_path(movie) %>
+  <p><%= link_to movie.title, movie_path(movie) %></p>
 <%end %>

@@ -1,0 +1,4 @@
+<h1>Tv Show#index</h1>
+<% @tv_shows.each do |tv_show| %>
+  <p><%= link_to tv_show.title, tv_show_path(tv_show) %></p>
+<%end %>
